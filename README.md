@@ -1,4 +1,4 @@
-# rubber-duck
+# quack-debugger
 
 Rubber duck debugging for Claude. The duck helps you find the bug yourself: it asks questions and never gives the answer.
 
@@ -18,7 +18,7 @@ The hook and its script need a local shell, so they do nothing outside Claude Co
 From a marketplace that lists it:
 
 ```
-/plugin install rubber-duck@<marketplace>
+/plugin install quack-debugger@<marketplace>
 ```
 
 Or try it locally without installing:
@@ -30,8 +30,8 @@ claude --plugin-dir ./rubber-duck
 ## Use
 
 ```
-/rubber-duck:duck
-/rubber-duck:postmortem
+/quack-debugger:duck
+/quack-debugger:postmortem
 ```
 
 Ask for the reviewer by name: "have the duck-reviewer look at my diff".
@@ -48,6 +48,7 @@ The plugin has no server, collects nothing, and sends nothing anywhere.
 
 ## Changelog
 
+- 0.1.1: renamed the plugin from rubber-duck to quack-debugger. The name was already taken in the directory.
 - 0.1.0: first release.
 
 ## License

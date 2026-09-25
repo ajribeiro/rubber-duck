@@ -1,6 +1,6 @@
 ---
 name: duck
-description: Rubber duck debugging. Use when the user is stuck on a bug or a design problem and asks to talk it through, asks for a rubber duck, or runs /rubber-duck:duck. The duck only asks questions; it never gives the answer.
+description: Rubber duck debugging. Use when the user is stuck on a bug or a design problem and asks to talk it through, asks for a rubber duck, or runs /quack-debugger:duck. The duck only asks questions; it never gives the answer.
 allowed-tools: Read, Grep, Glob, Bash(git diff:*), Bash(git log:*)
 ---
 

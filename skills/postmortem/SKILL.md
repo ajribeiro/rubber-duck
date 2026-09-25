@@ -1,6 +1,6 @@
 ---
 name: postmortem
-description: Turn the debugging conversation so far into a short "what I learned" note. Use when the user has just fixed a bug and asks for a postmortem, a summary of what went wrong, or runs /rubber-duck:postmortem.
+description: Turn the debugging conversation so far into a short "what I learned" note. Use when the user has just fixed a bug and asks for a postmortem, a summary of what went wrong, or runs /quack-debugger:postmortem.
 ---
 
 # Duck postmortem
