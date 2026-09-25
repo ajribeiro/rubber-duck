@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Rubber duck">
+  <rect width="256" height="256" rx="48" fill="#2F6FDE"/>
+  <!-- water -->
+  <path fill="#1E4FA8" d="M0 196 Q32 180 64 196 T128 196 T192 196 T256 196 V208 A48 48 0 0 1 208 256 H48 A48 48 0 0 1 0 208 Z"/>
+  <!-- body -->
+  <path fill="#FFD23F" d="M52 150 C52 118 84 112 112 124 C128 130 150 128 170 112 C186 100 214 108 214 140 C214 182 176 204 130 204 C84 204 52 186 52 150 Z"/>
+  <!-- wing -->
+  <path fill="#F2B705" d="M104 150 C122 140 156 142 170 156 C160 178 120 182 104 150 Z"/>
+  <!-- head -->
+  <circle cx="98" cy="98" r="42" fill="#FFD23F"/>
+  <!-- beak -->
+  <path fill="#F27F0C" d="M62 100 C44 96 30 102 26 112 C38 120 56 120 68 114 Z"/>
+  <!-- eye -->
+  <circle cx="90" cy="88" r="7" fill="#2B2B2B"/>
+  <circle cx="92" cy="86" r="2.2" fill="#FFFFFF"/>
+</svg>

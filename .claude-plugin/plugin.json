@@ -1,0 +1,13 @@
+{
+  "name": "rubber-duck",
+  "description": "Rubber duck debugging: a duck that only asks questions, a question-only code reviewer, and a quack when a command fails.",
+  "version": "0.1.0",
+  "icon": "./.claude-plugin/icon.svg",
+  "author": {
+    "name": "AJ Ribeiro"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ajribeiro/rubber-duck",
+  "repository": "https://github.com/ajribeiro/rubber-duck",
+  "keywords": ["debugging", "rubber-duck", "code-review", "hooks", "example"]
+}

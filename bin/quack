@@ -1,0 +1,18 @@
+#!/bin/bash
+# Prints a quack and one debugging prompt. Runs after a shell command fails.
+# It reads nothing, writes nothing, and makes no network calls.
+
+prompts=(
+  "What did you expect that command to do?"
+  "What changed since it last worked?"
+  "Did you read the whole error, or just the last line?"
+  "What is the smallest version of this that still fails?"
+  "Are you sure you are in the directory you think you are in?"
+  "Which assumption have you not checked yet?"
+  "What would you try if this had to be fixed in five minutes?"
+)
+
+pick=${prompts[$((RANDOM % ${#prompts[@]}))]}
+
+printf '{"systemMessage": "Quack. %s"}\n' "$pick"
+exit 0
