@@ -48,6 +48,7 @@ The plugin has no server, collects nothing, and sends nothing anywhere.
 
 ## Changelog
 
+- 0.1.2: two more debugging prompts for the quack hook.
 - 0.1.1: renamed the plugin from rubber-duck to quack-debugger. The name was already taken in the directory.
 - 0.1.0: first release.
 

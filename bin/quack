@@ -10,6 +10,8 @@ prompts=(
   "Are you sure you are in the directory you think you are in?"
   "Which assumption have you not checked yet?"
   "What would you try if this had to be fixed in five minutes?"
+  "When did you last see this work, and what is different now?"
+  "What does the error say if you read it out loud, word for word?"
 )
 
 pick=${prompts[$((RANDOM % ${#prompts[@]}))]}

@@ -1,7 +1,7 @@
 {
   "name": "quack-debugger",
   "description": "Rubber duck debugging: a duck that only asks questions, a question-only code reviewer, and a quack when a command fails.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "icon": "./.claude-plugin/icon.svg",
   "author": {
     "name": "AJ Ribeiro"
